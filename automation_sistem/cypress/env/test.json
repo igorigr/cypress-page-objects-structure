@@ -1,0 +1,34 @@
+{
+  "db": {
+    "user": "postgres",
+    "password": "qi9CxrVGSXQFu4C6",
+    "host": "seudbanco.postgres.database.azure.com",
+    "database": "test",
+    "ssl": true,
+    "port": 5432
+  },
+  "urlPortal": "https://seusite.com",
+  "urlApi": "https://api.seusite.com",
+  "users": {
+    "backoffice": {
+      "admin": {
+        "email": "seuemail@domnio.com",
+        "password": "123.Mudar"
+      }
+    },
+    "partner": {
+      "main": {
+        "name": "Automation Cypress",
+        "email": "seuemail@domnio.com",
+        "password": "123.Mudar"
+      }
+    },
+    "salesman": {
+      "partnerMain": {
+        "name": "Automation Cypress",
+        "email": "seuemail@domnio.com",
+        "password": "123.Mudar"
+      }
+    }
+  }
+}
